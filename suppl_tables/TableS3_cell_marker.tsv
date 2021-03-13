@@ -1,0 +1,243 @@
+CellType	Symbol	source
+Dendritic cell	CCL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	EBI3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	INDO	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	LAMP3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	OAS3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	CCL13	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	CCL17	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	CCL22	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	CD209	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	HSD11B1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	NPR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	PPFIBP2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Dendritic cell	CD40	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Dendritic cell	CD80	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Dendritic cell	CD83	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Dendritic cell	CCR7	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Dendritic cell	IL3RA	https://www.nature.com/articles/s41467-017-02289-3
+Dendritic cell	CLEC4C	https://www.nature.com/articles/s41467-017-02289-3
+Macrophage	APOE	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	ATG7	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	BCAT1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CCL7	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CD163	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CD68	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CD84	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CHI3L1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CHIT1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CLEC5A	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	COL8A2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	COLEC12	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CTSK	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CXCL5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CYBB	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	DNASE2B	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	EMP1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	FDX1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	FN1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	GM2A	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	GPC4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	KAL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	MARCO	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	ME1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	MS4A4A	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	MSR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	PCOLCE2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	PTGDS	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	RAI14	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	SCARB2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	SCG5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	SGMS1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	SULT1C2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Macrophage	CD14	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Macrophage	CD68	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Macrophage	CD163	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Macrophage	CSF1R	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Macrophage	FCGR3A	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Mast cell	ABCC4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	ADCYAP1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	CALB2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	CEACAM8	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	CMA1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	CPA3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	CTSG	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	ELA2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	GATA2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	HDC	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	HPGD	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	HPGDS	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	KIT	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	LINC01140	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	MAOB	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	MLPH	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	MPO	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	MS4A2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	NR0B1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	PPM1H	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	PRG2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	PTGS1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	SCG2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	SIGLEC6	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	SLC18A2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	SLC24A3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	TAL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	TPSAB1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	TPSB2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Mast cell	VWA5A	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	ALPL	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	BST1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CD93	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CEACAM3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CREB5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CRISPLD2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CSF3R	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	CYP4F3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	DYSF	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	FCAR	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	FCGR3B	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	FLJ11151	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	FPR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	FPRL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	G0S2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	HIST1H2BC	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	HPSE	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	IL8RA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	IL8RB	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	KCNJ15	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	LILRB2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	MGAM	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	MME	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	PDE4B	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	S100A12	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	SIGLEC5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	SLC22A4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	SLC25A37	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	TECPR2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	TNFRSF10C	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Neutrophil	VNN3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	ABHD2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	ACACB	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	C9orf156	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	CAT	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	CCR3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	CLC	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	CYSLTR2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	EMR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	EPN2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	GALC	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	GPR44	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	HES1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	HIST1H1C	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	HRH4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	IGSF2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	IL5RA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	KBTBD11	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	KCNH2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	LRP5L	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	MYO15B	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	RCOR3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	RNASE2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	RRP12	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	SIAH1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	SMPD3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	SYNJ1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	TGIF1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	THBS1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	THBS4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	TIPARP	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+Eosinophil	TKTL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ADARB1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	AF107846	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ALDH1B1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	APBB2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ATL2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	BCL2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	CDC5L	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	FGF18	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	FUT5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	FZR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	GAGE2A	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	IGFBP5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	KANK2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	LDB3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	MAPRE3	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	MCM3AP	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	MRC2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	NCR1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	PDLIM4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	PRX	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	PSMD4	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	RP5-886K2.1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	SGMS1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	SLC30A5	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	SMEK1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	SPN	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	TBXA2R	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	TCTN2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	TINAGL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	TRPV6	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	XCL1	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	XCL2	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ZNF205	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ZNF528	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	ZNF747	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1092-z
+NK cell	FCGR3A	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	FCGR3B	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	NCAM1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRB1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRB1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRC1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRD1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRF1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+NK cell	KLRK1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	CDH5	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ELTD1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	CLEC14A	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	LDB2	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ECSCR	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	MYCT1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	RHOJ	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	VWF	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	TIE1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	KDR	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ESAM	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	PTPRB	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	GPR116	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	SPARCL1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	EMCN	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ROBO4	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ENG	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	TEK	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	S1PR1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	A2M	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	JAM2	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	COL15A1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	PECAM1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	CALCRL	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	CLEC3B	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	PLVAP	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	RGS5	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	LRRC32	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	EBF1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ADCY4	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ACVRL1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	GPR124	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	APLNR	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	TM4SF18	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	GNG11	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	CNRIP1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ZNF423	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	GIMAP8	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	PDGFD	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	ITGA9	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	EDNRB	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Endothelial cell	SELE	https://www.nature.com/articles/s41467-017-02289-3
+Fibroblast	FAP	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	PDPN	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	COL1A2	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	DCN	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	COL3A1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	COL6A1	https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5927-3
+Fibroblast	THY1	https://www.nature.com/articles/s41467-017-02289-3
+Fibroblast	COL1A1	https://www.nature.com/articles/s41467-017-02289-3
