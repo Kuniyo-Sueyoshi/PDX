@@ -1,25 +1,25 @@
 The script to execute geneset analyses (pathway analysis and cell signature analysis) is located at this directory.
 
 ### Reuqired files
-# Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
-../../data/PDX/Expression_matrix_CountEstimates_human.tsv
-../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
-# Function to annotate and sort PDX samples
-../../data/PDX/fn_anno_sort.R
-# gene-set list of hallmark pathways 
-./h.all.v6.2.symbols.gmt
-# Pre-processed data of homologue pairs (Human gene symbol - Mouse gene symbol) obtained from Homologue data base (HomoloGene, build68)
-../../data/homologene/homologene.data_geneV2.tsv
+- Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
+  - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
+  - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
+- Function to annotate and sort PDX samples
+  - ../../data/PDX/fn_anno_sort.R
+- gene-set list of hallmark pathways 
+  - ./h.all.v6.2.symbols.gmt
+- Pre-processed data of homologue pairs (Human gene symbol - Mouse gene symbol) obtained from Homologue data base (HomoloGene, build68)
+  - ../../data/homologene/homologene.data_geneV2.tsv
 
 ### Outputs
-../../suppl_tables/TableS2.1_GSVAscore_hg.tsv
-../../suppl_tables/TableS2.2_GSVAscore_mm.tsv
-./Fig3a_Pathway.jpg
-./Fig3b_CellType.jpg
+    - ../../suppl_tables/TableS2.1_GSVAscore_hg.tsv
+    - ../../suppl_tables/TableS2.2_GSVAscore_mm.tsv
+    - ./Fig3a_Pathway.jpg
+    - ./Fig3b_CellType.jpg
 
 
 --------------------------------------------------
-R> sessionInfo()
+### R> sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)

@@ -1,17 +1,17 @@
 Scripts to predict paracrine effectors (Upstream.r) and examine posssible paracrine regulators (PDX_CCLE_GTEx.r) are located in this directory.
 
 ### Reuqired files
-# A list of possible upstream regulators over PDX stromal transcriptome produced by IPA analysis 
-../../suppl_tables/TableS5_IPA_Regulators_KIRC_Stroma.txt
-# A list of differentially expressed genes in PDX cancer component.
-../../suppl_tables/TableS6_DEG_KIRCvsOthers_Cancer.tsv
+- A list of possible upstream regulators over PDX stromal transcriptome produced by IPA analysis 
+  - ../../suppl_tables/TableS5_IPA_Regulators_KIRC_Stroma.txt
+- A list of differentially expressed genes in PDX cancer component.
+  - ../../suppl_tables/TableS6_DEG_KIRCvsOthers_Cancer.tsv
 
 ### Outputs
-./FigS2_IPA_KIRC.jpg
-./Fig4a_Upstrm_KIRC.jpg
+    - ./FigS2_IPA_KIRC.jpg
+    - ./Fig4a_Upstrm_KIRC.jpg
 
 --------------------------------------------------
-R> sessionInfo()
+### R> sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)

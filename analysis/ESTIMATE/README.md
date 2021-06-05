@@ -1,21 +1,21 @@
 The script to execute Stromal Score analysis using ESTIMATE is located at this directory.
 
 ### Reuqired files
-# Gene-level exprssion data in Transcript Per Million (TPM) values of Cancer/Stroma components of PDXs 
-../../data/PDX/Expression_matrix_TPM_human.tsv
-../../data/PDX/Expression_matrix_TPM_mouse.tsv
-# Pre-processed data of homologue pairs (Human gene symbol - Mouse gene symbol) obtained from Homologue data base (HomoloGene, build68)
-../../data/homologene/homologene.data_geneV2.tsv
-# Pre-processed Cancer Cell Line Encyclopedia (CCLE) data
-../../data/CCLE/matTPM_CCLE.tsv
-# Function to annotate and sort PDX samples
-../../data/PDX/fn_anno_sort.R
+- Gene-level exprssion data in Transcript Per Million (TPM) values of Cancer/Stroma components of PDXs 
+  - ../../data/PDX/Expression_matrix_TPM_human.tsv
+  - ../../data/PDX/Expression_matrix_TPM_mouse.tsv
+- Pre-processed data of homologue pairs (Human gene symbol - Mouse gene symbol) obtained from Homologue data base (HomoloGene, build68)
+  - ../../data/homologene/homologene.data_geneV2.tsv
+- Pre-processed Cancer Cell Line Encyclopedia (CCLE) data
+  - ../../data/CCLE/matTPM_CCLE.tsv
+- Function to annotate and sort PDX samples
+  - ../../data/PDX/fn_anno_sort.R
 
 ### Outputs
-"./Fig2A_StromalScore.jpg
+  - Fig2A_StromalScore.jpg
 
 --------------------------------------------------
-R> sessionInfo()
+### R> sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)

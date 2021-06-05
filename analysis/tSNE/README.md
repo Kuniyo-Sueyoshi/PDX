@@ -1,18 +1,18 @@
 The script to execute tSNE analysis is located at this directory.
 
 ### Reuqired files
-# Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
-../../data/PDX/Expression_matrix_CountEstimates_human.tsv
-../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
-# Function to annotate and sort PDX samples
-../../data/PDX/fn_anno_sort.R
+- Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
+  - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
+  - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
+- Function to annotate and sort PDX samples
+  - ../../data/PDX/fn_anno_sort.R
 
 ### Outputs
-./FigS1_Boxplot.jpg
-./Fig2c_tSNE.jpg
+    - ./FigS1_Boxplot.jpg
+    - ./Fig2c_tSNE.jpg
 
 --------------------------------------------------
-R> sessionInfo()
+### R> sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)
