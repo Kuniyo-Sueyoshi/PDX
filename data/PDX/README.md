@@ -1,9 +1,25 @@
+This is a directory to keep homologue data.
+
+### Data download details
+(1) Homologue data is available at HomoloGene site
+- https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/
+  - homologene.data
+     - wget https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/homologene.data
+- Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
+
+(2) Creat a correspondence table of human gene symbols and mouse gene symbols
+- $ python  Homolog_geneV2.py homologene.data
+
+### output data;
+- homologene.data_geneV2.tsv
+
+
 
 Gene-level expression data of 70 PDX samples are deposited in this directory. 
-(1) Expression_matrix_CountEstimates_human.tsv
-(2) Expression_matrix_CountEstimates_mouse.tsv
-(3) Expression_matrix_TPM_human.tsv
-(4) Expression_matrix_TPM_mouse.tsv
+-1 Expression_matrix_CountEstimates_human.tsv
+-2 Expression_matrix_CountEstimates_mouse.tsv
+-3 Expression_matrix_TPM_human.tsv
+-4 Expression_matrix_TPM_mouse.tsv
 
 Files (1) and (2) are the same as
 (1') GSE159702_Expression_matrix_CountEstimates_human.tsv.gz

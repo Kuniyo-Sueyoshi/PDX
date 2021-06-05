@@ -1,16 +1,14 @@
 This is a directory to keep homologue data. 
 
-###########################################################################
-### Data download details ################################################
-##########################################################################
-
+### Data download details
 (1) Homologue data is available at HomoloGene site
 - https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/
-  |- homologene.data
+  - homologene.data
      - wget https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/homologene.data
-# Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
+- Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
 
 (2) Creat a correspondence table of human gene symbols and mouse gene symbols 
-$ python  Homolog_geneV2.py homologene.data
-# output data;
+- $ python  Homolog_geneV2.py homologene.data
+
+### output data;
 - homologene.data_geneV2.tsv
