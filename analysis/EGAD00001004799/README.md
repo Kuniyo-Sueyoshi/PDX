@@ -2,11 +2,11 @@ The script to execute differential expression analysis of genes is located at th
 
 ### Reuqired files.
 - Gene-level exprssion data in Count-estimate values of Original PDXs 
-./../data/PDX/Expression_matrix_CountEstimates_human.tsv
-../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
+  ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
+  ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
 - Expression data of External KIRC PDX data (EGAD00001004799)
-../../data/EGAD00001004799/gene.exp.hg.EGAD00001004799.rda
-../../data/EGAD00001004799/gene.exp.mm.EGAD00001004799.rda
+  ../../data/EGAD00001004799/gene.exp.hg.EGAD00001004799.rda
+  ../../data/EGAD00001004799/gene.exp.mm.EGAD00001004799.rda
 # gene-set list of hallmark pathways
 ../GeneSetAnalysis/h.all.v6.2.symbols.gmt
 # homolog genes table
