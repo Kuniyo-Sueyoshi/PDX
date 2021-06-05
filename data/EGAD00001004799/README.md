@@ -42,8 +42,6 @@ This is a directory to keep and process the external data of KIRC (Kideny clear 
   - counts matrix
 
 ---------------------------------------
-### version 
----------------------------------------
 ### $ salmon -v
 version : 0.8.1
 
@@ -68,10 +66,6 @@ locale:
  [7] LC_PAPER=en_US.utf-8       LC_NAME=C
  [9] LC_ADDRESS=C               LC_TELEPHONE=C
 [11] LC_MEASUREMENT=en_US.utf-8 LC_IDENTIFICATION=C
-attached base packages:
-[1] stats     graphics  grDevices utils     datasets  methods   base
-other attached packages:
-[1] tximport_1.16.1
-loaded via a namespace (and not attached):
-[1] compiler_4.0.0
----------------------------------------
+attached base packages: [1] stats     graphics  grDevices utils     datasets  methods   base
+other attached packages: [1] tximport_1.16.1
+loaded via a namespace (and not attached): [1] compiler_4.0.0

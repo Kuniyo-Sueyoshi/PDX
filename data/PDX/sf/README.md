@@ -11,8 +11,8 @@ Instead, codes to obtain the transcript abundance data "ExpID-[01-70].sf" from f
 $ sh salmon_idx.sh
 $ sh salmon_quant.sh 
 
----------------------------------------
---------------- version ---------------
+
+### version
 ---------------------------------------
 $ cat /etc/redhat-release
 CentOS Linux release 7.4.1708 (Core)
@@ -22,6 +22,6 @@ zsh 5.0.2 (x86_64-redhat-linux-gnu)
 
 $ salmon -v
 version : 0.8.1
----------------------------------------
+
 
 
