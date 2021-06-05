@@ -1,6 +1,9 @@
 The script to execute Stromal Score analysis using ESTIMATE is located at this directory.
 
-### Reuqired files
+### Script file
+- StromalScore.r
+
+### Reuqired files to run the script
 - Gene-level exprssion data in Transcript Per Million (TPM) values of Cancer/Stroma components of PDXs 
   - ../../data/PDX/Expression_matrix_TPM_human.tsv
   - ../../data/PDX/Expression_matrix_TPM_mouse.tsv
@@ -12,7 +15,7 @@ The script to execute Stromal Score analysis using ESTIMATE is located at this d
   - ../../data/PDX/fn_anno_sort.R
 
 ### Outputs
-  - Fig2A_StromalScore.jpg
+- Fig2A_StromalScore.jpg
 
 --------------------------------------------------
 ### R> sessionInfo()

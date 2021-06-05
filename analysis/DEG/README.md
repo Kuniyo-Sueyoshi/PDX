@@ -1,6 +1,9 @@
 The script to execute differential expression analysis of genes is located at this directory.
 
-### Reuqired files
+### Script file
+- DEG.r
+
+### Reuqired files to run the script
 - Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
   - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
   - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv

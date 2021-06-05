@@ -1,6 +1,9 @@
 The script to execute differential expression analysis of genes is located at this directory.
 
-### Reuqired files.
+### Script file
+- Orignal_vs_External.r
+
+### Reuqired files to run the script
 - Gene-level exprssion data in Count-estimate values of Original PDXs 
   - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
   - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
@@ -29,7 +32,7 @@ The script to execute differential expression analysis of genes is located at th
   - ../../data/PDX/fn_anno_sort.R
 
 ### Outputs
-./FigS3_Ori-Ex_PDX.jpg
+- ./FigS3_Ori-Ex_PDX.jpg
 
 --------------------------------------------------
 ### R> sessionInfo()

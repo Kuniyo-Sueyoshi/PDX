@@ -1,6 +1,9 @@
 The script to execute tSNE analysis is located at this directory.
 
-### Reuqired files
+### Script file
+- tSNE.r
+
+### Reuqired files to run the script
 - Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
   - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
   - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
@@ -8,8 +11,9 @@ The script to execute tSNE analysis is located at this directory.
   - ../../data/PDX/fn_anno_sort.R
 
 ### Outputs
-    - ./FigS1_Boxplot.jpg
-    - ./Fig2c_tSNE.jpg
+- ./FigS1_Boxplot.jpg
+- ./Fig2c_tSNE.jpg
+
 
 --------------------------------------------------
 ### R> sessionInfo()

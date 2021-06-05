@@ -1,6 +1,9 @@
 The script to execute geneset analyses (pathway analysis and cell signature analysis) is located at this directory.
 
-### Reuqired files
+### Script file
+- pathway_cellsignature.r
+
+### Reuqired files to run the script
 - Gene-level exprssion data in Count-estimate values of Cancer/Stroma components of PDXs 
   - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
   - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
@@ -12,10 +15,10 @@ The script to execute geneset analyses (pathway analysis and cell signature anal
   - ../../data/homologene/homologene.data_geneV2.tsv
 
 ### Outputs
-    - ../../suppl_tables/TableS2.1_GSVAscore_hg.tsv
-    - ../../suppl_tables/TableS2.2_GSVAscore_mm.tsv
-    - ./Fig3a_Pathway.jpg
-    - ./Fig3b_CellType.jpg
+- ../../suppl_tables/TableS2.1_GSVAscore_hg.tsv
+- ../../suppl_tables/TableS2.2_GSVAscore_mm.tsv
+- ./Fig3a_Pathway.jpg
+- ./Fig3b_CellType.jpg
 
 
 --------------------------------------------------
