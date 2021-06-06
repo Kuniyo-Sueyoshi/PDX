@@ -1,25 +1,10 @@
-# .analyis/
-
-# DEMO
-
+# Main analyses and scripts
 
 # Features
+This repository includes scripts to reproduce Figures and Supplementary Figures relating to bioinformatics anayses in the study.
 
-
-
-conda create -n pyxel pip python=3.6 Anaconda
-activate pyxel
-```
-
-# Installation
-
-Install Pyxel with pip command.
-
-```bash
-pip install pyxel
-```
-
-# Usage
+# Usage example
+Please see sub-repository/README.md for the details.
 ```sh
 cd ./DEG
 ```
@@ -27,11 +12,10 @@ cd ./DEG
 source("./DEG.r")
 ```
 
-# Requirement
-
-
+# General requirement
+Please see sub-repository/README.md or each script(.r) regarding the R-package instalation.
 ```R
-> sessionInfo()
+R> sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)
