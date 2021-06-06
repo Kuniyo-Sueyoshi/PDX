@@ -22,13 +22,20 @@ This is a directory to keep and process the external data of KIRC (Kideny clear 
 - Reference; HIF-2 Complex Dissociation, Target Inhibition, and Acquired Resistance with PT2385, a First-in-Class HIF-2 Inhibitor, in Patients with Clear Cell Renal Cell Carcinoma. Courtney KD, Ma Y, Diaz de Leon A, Christie A, Xie Z, Woolford L, Singla N, Joyce A, Hill H, Madhuranthakam AJ, Yuan Q, Xi Y, Zhang Y, Chang J, Fatunde O, Arriaga Y, Frankel AE, Kalva S, Zhang S, McKenzie T, Reig Torras O, Figlin RA, Rini BI, McKay RM, Kapur P, Wang T, Pedrosa I, Brugarolas J. Clin Cancer Res 26:2020 793-803
 
 (2) Make reference Salmon-index of allo-species
-- $ sh ./salmon_idx.sh
+```sh
+sh ./salmon_idx.sh
+```
 
 (3) Quantify counts
-- $ sh ./salmon_quant.sh 
+```sh
+sh ./salmon_quant.sh 
+```
 
 (4) Transcript-level to Gene-level
-- R> source("./tximport.R")
+```R
+R>
+source("./tximport.R")
+```
 
 ### Output data 
 (1) gene.exp.hg.EGAD00001004799.rda (human reads)
@@ -41,19 +48,25 @@ This is a directory to keep and process the external data of KIRC (Kideny clear 
   - abundance matrix
   - counts matrix
 
----------------------------------------
-### $ salmon -v
-version : 0.8.1
 
-### $ pyega3
-pyEGA3 - EGA python client version 3.4.1 (https://github.com/EGA-archive/ega-download-client)
-Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
-Python version : 3.6.10
-OS version : Linux #1 SMP Fri Oct 20 20:32:50 UTC 2017
-Server URL: https://ega.ebi.ac.uk:8052/elixir/data
-Session-Id: 85898709
+### Requirement, versions
+```sh
+salmon -v
+$ version : 0.8.1
+```
 
-### R> sessionInfo()
+```sh
+pyega3
+$ pyEGA3 - EGA python client version 3.4.1 (https://github.com/EGA-archive/ega-download-client)
+$ Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+$ Python version : 3.6.10
+$ OS version : Linux #1 SMP Fri Oct 20 20:32:50 UTC 2017
+$ Server URL: https://ega.ebi.ac.uk:8052/elixir/data
+```
+
+```R
+R>
+sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)
@@ -69,3 +82,4 @@ locale:
 attached base packages: [1] stats     graphics  grDevices utils     datasets  methods   base
 other attached packages: [1] tximport_1.16.1
 loaded via a namespace (and not attached): [1] compiler_4.0.0
+```

@@ -11,8 +11,13 @@ Refenrence sequence and transcript annotation files need to be located in this d
   - GTF; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M15/gencode.vM15.annotation.gtf.gz
   - Fasta; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M15/gencode.vM15.transcripts.fa.gz
 
-These are required files to make salmon index files before expressin level quantification. 
-- $ ../PDX/sf/salmon_idx.sh
-- $ ../EGAD00001004799/salmon_idx.sh
-
+### Usage
+###### Make salmon index files 
+```sh
+../PDX/sf/salmon_idx.sh
+```
+###### Transcript-level expression quantification
+```sh
+../EGAD00001004799/salmon_idx.sh
+```
 

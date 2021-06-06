@@ -8,7 +8,9 @@ This is a directory to keep homologue data.
 - Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
 
 (2) Creat a correspondence table of human gene symbols and mouse gene symbols 
-- $ python  Homolog_geneV2.py homologene.data
+```sh
+python  Homolog_geneV2.py homologene.data
+```
 
 ### output data;
 - homologene.data_geneV2.tsv

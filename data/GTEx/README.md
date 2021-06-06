@@ -10,8 +10,9 @@ This is a directory to prepare the GTEx Kidney data.
 - Reference; GTEx Analysis V8 (dbGaP Accession phs000424.v8.p2)
 
 (2) Extract tissue types of interest ("Kideny")
-- $ python ./extrTiss.py
-
+```sh
+python ./extrTiss.py
+```
 
 ### Output data 
 (1) matTPM_GTEx_Kidney.tsv

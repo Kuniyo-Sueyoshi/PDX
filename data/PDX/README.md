@@ -31,14 +31,17 @@ Optionally, users can retrive gene-level, human/mouse-allotted expression data (
   - Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
 
 (2) Creat a correspondence table of human gene symbols and mouse gene symbols
-- $ python Homolog_geneV2.py homologene.data
+```sh
+python Homolog_geneV2.py homologene.data
+```
 
 (3) output data;
 - homologene.data_geneV2.tsv
 
------------------------------------------
-### version 
-> sessionInfo()
+### R requirement
+```R
+R>
+sessionInfo()
 R version 4.0.0 (2020-04-24)
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)
@@ -54,3 +57,4 @@ locale:
 attached base packages: [1] stats     graphics  grDevices utils     datasets  methods   base
 other attached packages: [1] tximport_1.16.1
 loaded via a namespace (and not attached): [1] compiler_4.0.0
+```

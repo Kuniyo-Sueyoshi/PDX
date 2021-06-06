@@ -8,8 +8,10 @@ This is a directory to keep and process the external data of KIRC (Kideny clear 
 - Reference; Barretina J et al. The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity. Nature. 2012 Mar 28;483(7391):603-7. doi: 10.1038/nature11003. PMID: 22460905.
 
 (2) Extract cancer types of interest ("BRCA", "COAD", "KIRC", "LGG", "PAAD", "SARC", "STAD") and change Ensembl gene ID to Gene Symbol (GENCODE v27) 
-- $ python ./extrCol_chxGeneID.py
-  - Internally import "./dct_gencodeV27.py"
+```sh
+$ python ./extrCol_chxGeneID.py
+```
+This internally imports "./dct_gencodeV27.py"
 
 ### Output data 
 - matTPM_CCLE.tsv
