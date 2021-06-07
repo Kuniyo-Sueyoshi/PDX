@@ -8,9 +8,10 @@ Nature Methods. Advanced Online Publication. doi: 10.1038/nmeth.4197
 
 Unfortunately, we cannot provide raw sequencing data (in fastq or BAM formats) due to the restriction of our Institutional Review Board and Ethic Committee because of patient privacy concerns.
 Instead, codes to obtain the transcript abundance data "ExpID-[01-70].sf" from fastq files are shown in the current repository.
-$ sh salmon_idx.sh
-$ sh salmon_quant.sh 
-
+```sh
+sh salmon_idx.sh
+sh salmon_quant.sh 
+```
 
 ### version
 ---------------------------------------
