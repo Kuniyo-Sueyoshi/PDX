@@ -1,13 +1,22 @@
 This is a directory to keep expression data of PDX human/mouse reads and homologue data.
 
 ### PDX expression data 
-Gene-level expression data of 70 PDX samples are deposited in this directory. Main analyses in the directory "../../analysis/" are executable with files (1)-(4). 
+Users need to place gene-level, human/mouse-allotted expression data (1)-(4) in this directory to execute main analyses "../../analysis/". 
 - Expression_matrix_CountEstimates_human.tsv - (1)
 - Expression_matrix_CountEstimates_mouse.tsv - (2)
 - Expression_matrix_TPM_human.tsv - (3)
 - Expression_matrix_TPM_mouse.tsv - (4)
 
-Files (1) and (2) are also available at a GEO repository; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 as 
+The procedures to obtain gene-level expression data (1)-(4) are as below.
+1. Download 70 transcript-level count-estimates/abundance data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
+   - Available at GEO repository with accession number "GSE159702"; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702
+   - Count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
+2. Start R in the current directory, then run a command;
+```R
+source("./tximport.R")
+```
+
+Optionally, files (1) and (2) are available at a GEO repository; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 as 
 - GSE159702_Expression_matrix_CountEstimates_human.tsv.gz - (1')
 - GSE159702_Expression_matrix_CountEstimates_mouse.tsv.gz  (2')
 
@@ -17,12 +26,6 @@ Nomenclature keys of file names
 - TPM; Transcript Per Million (TPM) values computed by Salmon (See "./sf/README.md" for the details) 
 - human; GENCODE, release 27, GRCh38.p10
 - mouse; GENCODE, release M15, GRCm38.p5
-
-Optionally, users can retrive gene-level, human/mouse-allotted expression data (1)-(4) from transcript-level data of xenografts.
-- Download 70 transcript-level count-estimates/abundance data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
- - Available at GEO repository with accession number "GSE159702"; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702
- - Count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
-- Start R in the current directory, then press a command 'source("./tximport.R")' 
 
 ### Homologue
 (1) Homologue data is available at HomoloGene site
