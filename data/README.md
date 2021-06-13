@@ -7,8 +7,8 @@ This is a directory to keep and modify expression data or reference info as the 
 Download and keep several files in ./sub-repository/ as instructed in ./sub-repository/README.md before running ../analysis.
 
 
-# Contents
-- **./ref/** needs to be filled before:
+# Contents and dependency
+- **./ref/** needs to be prepared before:
   - ../data/PDX/
 
 - **./PDX/** needs to be prepared before the analyses as follows: 

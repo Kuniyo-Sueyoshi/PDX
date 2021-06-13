@@ -48,7 +48,7 @@ Running under: CentOS Linux 7 (Core)
 # Usage example
 ```sh
 git clone https://github.com/Kuniyo-Sueyoshi/PDX.git
-cd ./analysis/DEG
+cd ./PDX/analysis/DEG
 ```
 ```R
 source("./DEG.r")

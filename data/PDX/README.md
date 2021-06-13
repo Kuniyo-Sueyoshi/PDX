@@ -1,47 +1,46 @@
+# PDX expression data
+
+# Features
 This is a directory to keep expression data of PDX human/mouse reads and homologue data.
 
-### PDX expression data 
-Users need to place gene-level, human/mouse-allotted expression data (1)-(4) in this directory to execute main analyses "../../analysis/". 
-- Expression_matrix_CountEstimates_human.tsv - (1)
-- Expression_matrix_CountEstimates_mouse.tsv - (2)
-- Expression_matrix_TPM_human.tsv - (3)
-- Expression_matrix_TPM_mouse.tsv - (4)
+# Files expected to be prepared in this directory
+Four Gene-level, human/mouse-allotted PDX expression data: 
+1. Expression_matrix_CountEstimates_human.tsv
+2. Expression_matrix_CountEstimates_mouse.tsv
+3. Expression_matrix_TPM_human.tsv
+4. Expression_matrix_TPM_mouse.tsv
 
-The procedures to obtain gene-level expression data (1)-(4) are as below.
-1. Download 70 transcript-level count-estimates/abundance data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
-   - Available at GEO repository with accession number "GSE159702"; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702
-   - Count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
+# Dependency
+Files (1)-(4) need to be prepared before the analyses as follows:
+  - ../../analysis/DEG/
+  - ../../analysis/EGAD00001004799/
+  - ../../analysis/ESTIMATE/
+  - ../../analysis/GeneSetAnalysis/
+  - ../../analysis/tSNE/
+  - ../../analysis/TumorPurity/
+  - ../../analysis/Upstream/
+
+# Procedures to obtain gene-level expression data (1)-(4)
+1. Download 70 transcript-level expressione data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
+   - Available at [a GEO repository with accession number "GSE159702"](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702")
+   - These are transcript-level count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
 2. Start R in the current directory, then run a command;
 ```R
 source("./tximport.R")
 ```
 
-Optionally, files (1) and (2) are available at a GEO repository; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 as 
-- GSE159702_Expression_matrix_CountEstimates_human.tsv.gz - (1')
-- GSE159702_Expression_matrix_CountEstimates_mouse.tsv.gz  (2')
+*Optionally*, files (1) and (2) are available at [the GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702") as 
+1'. GSE159702_Expression_matrix_CountEstimates_human.tsv.gz
+2'. GSE159702_Expression_matrix_CountEstimates_mouse.tsv.gz
 
-Nomenclature keys of file names
-- Expression_matrix; Gene-level expression data summarized from transcript-level by tximport.R (See below) 
-- CountEstimates; Transcript length-scaled count-estimates computed by Salmon (See "./sf/README.md" for the details)
-- TPM; Transcript Per Million (TPM) values computed by Salmon (See "./sf/README.md" for the details) 
-- human; GENCODE, release 27, GRCh38.p10
-- mouse; GENCODE, release M15, GRCm38.p5
+# Nomenclature keys of file names
+- *Expression_matrix*; Gene-level expression data summarized from transcript-level by tximport.R (See below) 
+- *CountEstimates*; Transcript length-scaled count-estimates computed by Salmon (See "./sf/README.md" for the details)
+- *TPM*; Transcript Per Million (TPM) values computed by Salmon (See "./sf/README.md" for the details) 
+- *human*; GENCODE, release 27, GRCh38.p10
+- *mouse*; GENCODE, release M15, GRCm38.p5
 
-### Homologue
-(1) Homologue data is available at HomoloGene site
-- https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/
-  - homologene.data
-  - Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
-
-(2) Creat a correspondence table of human gene symbols and mouse gene symbols
-```sh
-python Homolog_geneV2.py homologene.data
-```
-
-(3) output data;
-- homologene.data_geneV2.tsv
-
-### R requirement
+### R environment and packages
 ```R
 R>
 sessionInfo()
