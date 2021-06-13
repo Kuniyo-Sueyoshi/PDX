@@ -18,10 +18,17 @@ invisible(lapply(mypkgs, function(x){
 ```
 
 ### Reuqired files to run the scripts
-- A list of possible upstream regulators over PDX stromal transcriptome produced by IPA analysis 
+- A list of possible upstream regulators over PDX stromal transcriptome (IPA® analysis) 
   - ../../suppl_tables/TableS5_IPA_Regulators_KIRC_Stroma.txt
 - A list of differentially expressed genes in PDX cancer component.
   - ../../suppl_tables/TableS6_DEG_KIRCvsOthers_Cancer.tsv
+- Original PDX expression data in TPM values  
+  - ../../data/PDX/Expression_matrix_TPM_human.tsv
+  - ../../data/PDX/Expression_matrix_TPM_mouse.tsv
+- CCLE expression data in TPM values
+  - ../../data/CCLE/matTPM_CCLE.tsv
+- GTEx expression data in TPM value
+  - ../../data/GTEx/matTPM_GTEx_Kidney.tsv
 
 ### Outputs
 - ./FigS2_IPA_KIRC.jpg

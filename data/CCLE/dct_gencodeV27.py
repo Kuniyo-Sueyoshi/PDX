@@ -6,7 +6,9 @@ import csv
 mydict1 = {}
 mydict2 = {}
 mydict3 = {}
-with open("/home/sueyoshi/PDX/github/data/ref/gencode.v27.annotation.gtf", "r") as f:
+
+import gzip # unzip
+with gzip.open("/home/sueyoshi/PDX/github/data/ref/gencode.v27.annotation.gtf.gz", "rt") as f:
     r = csv.reader(f, delimiter="\t")
     next(r)
     next(r)

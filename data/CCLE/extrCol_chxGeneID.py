@@ -20,7 +20,7 @@ barcodes = d_smInfoMin["barcode"].tolist()
 
 # unzip 
 import zipfile
-zip_f = zipfile.ZipFile("./download/ccle_gene_quantification.zip")
+zip_f = zipfile.ZipFile("./ccle_gene_quantification.zip")
 
 for i,myfile in enumerate(myfiles):
     print("loading file is... Cancer type: " + diseases[i] + ", CCLE barcodes: " + barcodes[i] + ", FileName: "+ myfile)

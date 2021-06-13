@@ -1,16 +1,42 @@
-This is a directory to keep and modify expression data or reference info as pre-processes prior to main analyses; "../analyses"   
-Sysmtem versions that are common in the process at sub-directories are as below.
+# Expresion data/Reference data repository
 
----------------------------------------
-### version
-$ cat /etc/redhat-release
+# Features
+This is a directory to keep and modify expression data or reference info as the pre-processes prior to main analyses; "../analyses"
 
-CentOS Linux release 7.4.1708 (Core)
+# Usage
+Download and keep several files in ./sub-repository/ as instructed in sub-repository/README.md before running ../analysis.
 
-$ zsh --version
 
-zsh 5.0.2 (x86_64-redhat-linux-gnu)
+# Contents
+- *./ref/* needs to be filled before:
+  - ../data/PDX/
 
-$ python -VV
+- *./PDX/* needs to be prepared before the analyses as follows: 
+  - ../analysis/DEG/
+  - ../analysis/EGAD00001004799/
+  - ../analysis/ESTIMATE/
+  - ../analysis/GeneSetAnalysis/
+  - ../analysis/tSNE/
+  - ../analysis/TumorPurity/
+  - ../analysis/Upstream/
+  
+- *.homologene/* needs to be prepared before the analyses as follows:
+  - ../analysis/EGAD00001004799/
+  - ../analysis/ESTIMATE/
+  - ../analysis/GeneSetAnalysis/
 
-Python 3.6.10 | packaged by conda-forge | (default, Mar  5 2020, 10:05:08) [GCC 7.3.0]
+- *.TCGA/* needs to be prepared before the analyses as follows:
+  - ../analysis/TumorPurity/
+  - ../analysis/
+
+- *.CCLE/* needs to be prepared before the analyses as follows:
+ - ../analysis/ESTIMATE/
+ - ../analysis/Upstream/
+ 
+- *.GTEx/* needs to be prepared before the analyses as follows:
+  - ../analysis/EGAD00001004799/
+  - ../analysis/Upstream/
+
+- *.EGAD00001004799/* needs to be prepared before the analyses as follows:
+  - ../analysis/EGAD00001004799/
+  ../analysis/

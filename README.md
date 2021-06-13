@@ -27,7 +27,7 @@ The current repository includes codes used in the study entitled "Systematic ana
    - TableS6_DEG_KIRCvsOthers_Cancer.tsv
    - TableS5_IPA_Regulators_KIRC_Stroma.txt
 
-# General requirement
+# Tested environment
 ```sh
 $ cat /etc/redhat-release
 $ CentOS Linux release 7.4.1708 (Core)
@@ -40,9 +40,9 @@ $ Python 3.6.10 | packaged by conda-forge | (default, Mar  5 2020, 10:05:08) [GC
 ```
 ```R
 R> sessionInfo()
-R version 3.6.2 (2019-12-12)
-Platform: x86_64-apple-darwin15.6.0 (64-bit)
-Running under: macOS Catalina 10.15.7
+R version 4.0.0 (2020-04-24)
+Platform: x86_64-conda_cos6-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
 ```
 
 # Usage example
