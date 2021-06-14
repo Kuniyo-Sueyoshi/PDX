@@ -1,23 +1,24 @@
+# Reference
 
+# Feature
 Refenrence sequence and transcript annotation files need to be located in this directory.
 
-### Human
-- GENCODE release 27 (GRCh38.p10)
+# Procedure to prepare this directory
+Download GENCODE annotation files
+- Human; GENCODE release 27 (GRCh38.p10)
   - GTF; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_27/gencode.v27.annotation.gff3.gz
   - Fasta; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_27/gencode.v27.transcripts.fa.gz
 
-### Mouse
-- GENCODE release M15 (GRCm38.p5); 
+- Mouse; GENCODE release M15 (GRCm38.p5); 
   - GTF; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M15/gencode.vM15.annotation.gtf.gz
   - Fasta; ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M15/gencode.vM15.transcripts.fa.gz
 
-### Usage
-###### Make salmon index files 
+# Usage examples
+- Make salmon index files 
 ```sh
 ../PDX/sf/salmon_idx.sh
 ```
-###### Transcript-level expression quantification
+- Transcript-level expression quantification
 ```sh
 ../EGAD00001004799/salmon_idx.sh
 ```
-

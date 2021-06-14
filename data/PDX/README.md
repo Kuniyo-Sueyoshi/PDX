@@ -3,22 +3,12 @@
 # Features
 This is a directory to keep expression data of PDX human/mouse reads and homologue data.
 
-# Files expected to be prepared in this directory
+# Expected files
 Four Gene-level, human/mouse-allotted PDX expression data: 
 1. Expression_matrix_CountEstimates_human.tsv
 2. Expression_matrix_CountEstimates_mouse.tsv
 3. Expression_matrix_TPM_human.tsv
 4. Expression_matrix_TPM_mouse.tsv
-
-# Dependency
-Files (1)-(4) need to be prepared before the analyses as follows:
-  - ../../analysis/DEG/
-  - ../../analysis/EGAD00001004799/
-  - ../../analysis/ESTIMATE/
-  - ../../analysis/GeneSetAnalysis/
-  - ../../analysis/tSNE/
-  - ../../analysis/TumorPurity/
-  - ../../analysis/Upstream/
 
 # Procedures to prepare the files (1)-(4)
 1. Download Supplementary files available at [a GEO repository with accession number "GSE159702"](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702") 

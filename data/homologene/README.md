@@ -1,16 +1,21 @@
-This is a directory to keep homologue data. 
+# Homologue (human & mouse)
 
-### Data download details
-(1) Homologue data is available at HomoloGene site
-- https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/
+# Feature
+This is a directory to keep homologue data.
+> Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
+
+# Expected files
+- homologene.data_geneV2.tsv
+
+# Procedures to yield the expected files
+Data download details
+1. Download Homologue data from [HomoloGene site](https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/ "homologene")
   - homologene.data
-     - wget https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/homologene.data
-- Reference; NCBI Resource Coordinators, N.R. (2016). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 44, D7-19.
+```sh
+wget https://ftp.ncbi.nih.gov/pub/HomoloGene/build68/homologene.data
+```
 
-(2) Creat a correspondence table of human gene symbols and mouse gene symbols 
+2. Creat a correspondence table of human gene symbols and mouse gene symbols 
 ```sh
 python  Homolog_geneV2.py homologene.data
 ```
-
-### output data;
-- homologene.data_geneV2.tsv
