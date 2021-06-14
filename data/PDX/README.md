@@ -20,18 +20,25 @@ Files (1)-(4) need to be prepared before the analyses as follows:
   - ../../analysis/TumorPurity/
   - ../../analysis/Upstream/
 
-# Procedures to obtain gene-level expression data (1)-(4)
+# Procedures to prepare the files (1)-(4)
+1. Download Supplementary files available at [a GEO repository with accession number "GSE159702"](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702") 
+   - GSE159702_Expression_matrix_CountEstimates_human.tsv.gz
+   - GSE159702_Expression_matrix_CountEstimates_mouse.tsv.gz
+   - GSE159702_Expression_matrix_TPM_human.tsv.gz
+   - GSE159702_Expression_matrix_TPM_mouse.tsv.gz
+2. run a shell command;
+```sh
+unzip_rename.sh
+```
+
+# Optinal procedures to obtain gene-level expression data files (1)-(4)
 1. Download 70 transcript-level expressione data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
-   - Available at [a GEO repository with accession number "GSE159702"](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702")
+   - Available at [the GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702")
    - These are transcript-level count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
 2. Start R in the current directory, then run a command;
 ```R
 source("./tximport.R")
 ```
-
-*Optionally*, files (1) and (2) are available at [the GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702") as 
-1'. GSE159702_Expression_matrix_CountEstimates_human.tsv.gz
-2'. GSE159702_Expression_matrix_CountEstimates_mouse.tsv.gz
 
 # Nomenclature keys of file names
 - *Expression_matrix*; Gene-level expression data summarized from transcript-level by tximport.R (See below) 
@@ -40,7 +47,7 @@ source("./tximport.R")
 - *human*; GENCODE, release 27, GRCh38.p10
 - *mouse*; GENCODE, release M15, GRCm38.p5
 
-### R environment and packages
+# R environment and packages
 ```R
 R>
 sessionInfo()
