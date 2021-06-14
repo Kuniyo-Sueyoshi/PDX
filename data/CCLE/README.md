@@ -1,7 +1,9 @@
-# CCLE (Cancer Cell Line Encyclopedia) data
+# CCLE expresison data
 
 # Features
-This is a directory to keep and handle CCLE expression data
+This is a directory to keep and handle CCLE (The Cancer Cell Line Encyclopedia) expression data 
+> Reference; Barretina J et al. The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity. Nature. 2012 Mar 28;483(7391):603-7. doi: 10.1038/nature11003. PMID: 22460905.
+
 
 # Expected Files
 - matTPM_CCLE.tsv
@@ -18,5 +20,3 @@ This internally imports
 ```python
 ./dct_gencodeV27.py
 ```
-
-> Reference; Barretina J et al. The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity. Nature. 2012 Mar 28;483(7391):603-7. doi: 10.1038/nature11003. PMID: 22460905.
