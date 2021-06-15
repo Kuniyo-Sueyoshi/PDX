@@ -4,7 +4,7 @@
 This is a directory to keep and process the external data (EGAD00001004799) of KIRC (Kideny clear cell renal carcinoma) xenografts. 
 > Reference; HIF-2 Complex Dissociation, Target Inhibition, and Acquired Resistance with PT2385, a First-in-Class HIF-2 Inhibitor, in Patients with Clear Cell Renal Cell Carcinoma. Courtney KD, Ma Y, Diaz de Leon A, Christie A, Xie Z, Woolford L, Singla N, Joyce A, Hill H, Madhuranthakam AJ, Yuan Q, Xi Y, Zhang Y, Chang J, Fatunde O, Arriaga Y, Frankel AE, Kalva S, Zhang S, McKenzie T, Reig Torras O, Figlin RA, Rini BI, McKay RM, Kapur P, Wang T, Pedrosa I, Brugarolas J. Clin Cancer Res 26:2020 793-803
 
-# Expected data 
+# Data expected to be prepared in this repository
 1. gene.exp.hg.EGAD00001004799.rda
    - R data of human reads that contain a list of
      - abundance matrix
@@ -15,8 +15,8 @@ This is a directory to keep and process the external data (EGAD00001004799) of K
   - counts matrix
 
 
-# Procedures to obtain the expected data
-1. Download fastq files "EGAF..."  using pyega3 according to the EGA instruction
+# Procedures to obtain the data (1),(2)
+1. Download fastq files "EGAF..."  using pyega3 according to the EGA instruction. They are publicly available (but controlled) at [European Genome-Phenome Archive (EGA) with accession number "EGAD00001004799"](https://ega-archive.org/datasets/EGAD00001004799 "EGAD00001004799")
 - EGAD00001004799
   - EGAF00002399466
   - EGAF00002399467
@@ -32,20 +32,18 @@ This is a directory to keep and process the external data (EGAD00001004799) of K
   - EGAF00002399477
   - EGAF00002399478
   - EGAF00002399479
-- They are publicly available (but controlled) at European Genome-Phenome Archive (EGA) with accession number "EGAD00001004799"; https://ega-archive.org/datasets/EGAD00001004799
-- Please refer to "filelist_TG_EGAD00001004799.tsv" for the file annotation 
 
 2. Make reference Salmon-index of allo-species
 ```sh
 sh ./salmon_idx.sh
 ```
 
-(3) Quantify counts
+3. Quantify counts
 ```sh
 sh ./salmon_quant.sh 
 ```
 
-(4) Transcript-level to Gene-level
+4. Transcript-level to Gene-level
 ```R
 R>
 source("./tximport.R")

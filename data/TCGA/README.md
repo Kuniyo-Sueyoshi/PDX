@@ -11,8 +11,8 @@ This is a directory to keep the tumor purity data of TCGA (The Cancer Genome Atl
 wget -O TCGA_mastercalls.abs_tables_JSedit.fixed.txt http://api.gdc.cancer.gov/data/4f277128-f793-4354-a13d-30cc7fe9f6b5
 ```
 
-# Data source of sample annotation (TCGA-Barcodes) files
-*Downloaded* file lists of TCGA-Barcodes for running CNV analysis were obtained from [Broad Institute site](http://gdac.broadinstitute.org/runs/stddata__latest/samples_report/)
+# Source of sample annotation (TCGA-Barcodes) files
+*Downloaded* annotation files for running CNV analysis were obtained from [Broad Institute site](http://gdac.broadinstitute.org/runs/stddata__latest/samples_report/)
 - samplelist_CNVrun_BRCA.txt
   - http://gdac.broadinstitute.org/runs/analyses__latest/reports/cancer/BRCA/CopyNumber_Gistic2/arraylistfile.txt
 - samplelist_CNVrun_GBM.txt
