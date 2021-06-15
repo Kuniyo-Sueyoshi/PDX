@@ -25,18 +25,19 @@ for ID in smids:
     except:
         pass
 
+print("Please wait for a minute...")
 import subprocess as sbp 
-cmd1 = "tail -n +3 GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct" # skip 2 rows
+cmd1 = "gzip -dc GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct.gz" # unzip
 cutopt = "-f2," + ",".join(map(str, indices)) # cut option -f; -f2=geneName, -f[indices]: samples
-cmd2 = "cut %s" %cutopt
+cmd2 = "cut %s" %cutopt # cut -f[index1],[index2],,,
 p1 = sbp.Popen(cmd1.split(" "), stdout=sbp.PIPE)
 p2 = sbp.Popen(cmd2.split(" "), stdin=p1.stdout, stdout=sbp.PIPE)
 stdout = p2.stdout.read().decode("UTF-8") # byte -> str
-f = open("matTPM_GTEx_Kidney_dup.tsv", "w")
+f = open("matTPM_GTEx_Kidney_dup.tsv", "w") # The first 2 rows are garbages
 f.write(stdout)
 f.close()
 
-d = pd.read_table("./matTPM_GTEx_Kidney_dup.tsv")
+d = pd.read_table("./matTPM_GTEx_Kidney_dup.tsv", skiprows=2)
 dd = d[~d["Description"].duplicated()] # remove duplicated genes
 dd.to_csv("./matTPM_GTEx_Kidney.tsv", sep = "\t", index = False, float_format='%.4f')
 import os

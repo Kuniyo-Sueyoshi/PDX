@@ -5,13 +5,14 @@ This is a directory to keep the tumor purity data of TCGA (The Cancer Genome Atl
 > Reference; Aran, D., Sirota, M., and Butte, A.J. (2015). Systematic pan-cancer analysis of tumour purity. Nat. Commun. 6, 1–12.
 
 # Procedures to prepare this repository
-1. Download a ABSOLUTE purity/ploidy file that is publicly available at [NCI Genomic Data Commons site](https://gdc.cancer.gov/about-data/publications/pancanatlas)
+1. Download an ABSOLUTE purity/ploidy file from [NCI Genomic Data Commons site](https://gdc.cancer.gov/about-data/publications/pancanatlas)
 - TCGA_mastercalls.abs_tables_JSedit.fixed.txt
 ```sh
-wget http://api.gdc.cancer.gov/data/4f277128-f793-4354-a13d-30cc7fe9f6b5
+wget -O TCGA_mastercalls.abs_tables_JSedit.fixed.txt http://api.gdc.cancer.gov/data/4f277128-f793-4354-a13d-30cc7fe9f6b5
 ```
 
-2. Download lists of TCGA-Barcodes for running analysis at [Broad Institute site](http://gdac.broadinstitute.org/runs/stddata__latest/samples_report/)
+# Data source of sample annotation (TCGA-Barcodes) files
+*Downloaded* file lists of TCGA-Barcodes for running CNV analysis were obtained from [Broad Institute site](http://gdac.broadinstitute.org/runs/stddata__latest/samples_report/)
 - samplelist_CNVrun_BRCA.txt
   - http://gdac.broadinstitute.org/runs/analyses__latest/reports/cancer/BRCA/CopyNumber_Gistic2/arraylistfile.txt
 - samplelist_CNVrun_GBM.txt
