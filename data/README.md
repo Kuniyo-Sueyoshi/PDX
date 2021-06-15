@@ -10,6 +10,7 @@ Download and keep several files in ./sub-repository/ as instructed in ./sub-repo
 # Contents and dependency
 - **./ref/** needs to be prepared before:
   - ../data/PDX/
+  - ../data/CCLE/
 
 - **./PDX/** needs to be prepared before the analyses as follows: 
   - ../analysis/DEG/

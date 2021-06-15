@@ -22,9 +22,8 @@ unzip_rename.sh
 ```
 
 # Optinal procedures to obtain gene-level expression data files (1)-(4)
-1. Download 70 transcript-level expressione data "ExpID-[01-70].sf" to the sub-direcotory "./sf/".
-   - Available at [the GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702")
-   - These are transcript-level count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.   
+1. Download 70 transcript-level expressione data "ExpID-[01-70].sf" to the sub-direcotory "./sf/". from [the GEO repository "GSE159702"](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159702 "GSE159702")
+> These are transcript-level count-estimates/abundance data computed by Salmon software. Please see "./sf/README.md" for the details.
 2. Start R in the current directory, then run a command;
 ```R
 source("./tximport.R")

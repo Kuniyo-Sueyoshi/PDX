@@ -4,11 +4,11 @@
 import csv
 # ENSG/T -> GeneSymbol
 mydict1 = {}
-mydict2 = {}
-mydict3 = {}
+#mydict2 = {}
+#mydict3 = {}
 
 import gzip # unzip
-with gzip.open("/home/sueyoshi/PDX/github/data/ref/gencode.v27.annotation.gtf.gz", "rt") as f:
+with gzip.open("../ref/gencode.v27.annotation.gtf.gz", "rt") as f:
     r = csv.reader(f, delimiter="\t")
     next(r)
     next(r)
