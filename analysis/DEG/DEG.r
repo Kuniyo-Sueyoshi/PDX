@@ -1,8 +1,9 @@
 # Package requirement
-mypkgs <- c("tidyverse", "edgeR", "RColorBrewer", "limma")
+mypkgs <- c("tidyverse", "edgeR", "RColorBrewer", "limma", "statmod")
 invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
+    if(suppressWarnings(!do.call("require", list(x)))){
+        BiocManager::install(x)
+        do.call("require", list(x))
     }
 }))
 
@@ -55,7 +56,7 @@ fit2.hg <- contrasts.fit(fit.hg, cont.mat)     # model fitting
 fit2.hg <- eBayes(fit2.hg)    # empirical Bayes
 test <- colnames(cont.mat) # test: KIRC vs the remaining types
 print(test)
-deg.hg -> topTable(fit2.hg, adjust="fdr", number=Inf, sort.by = "P") %>% rownames_to_column("Gene") # Result of DEG analysis 
+deg.hg <- topTable(fit2.hg, adjust="fdr", number=Inf, sort.by = "P") %>% rownames_to_column("Gene") # Result of DEG analysis 
 write.table(deg.hg, paste("../../suppl_tables/TableS6_DEG_", test, "_Cancer.tsv", sep=""), row.names = F, quote = F, sep = "\t")
 
 ### DEG analysis of Stroma component ###
@@ -76,5 +77,5 @@ fit2.mm <- contrasts.fit(fit.mm, cont.mat)     # model fitting
 fit2.mm <- eBayes(fit2.mm)    # empirical Bayes
 test <- colnames(cont.mat) # test: KIRC vs the remaining types
 print(test)
-deg.mm -> topTable(fit2.mm, adjust="fdr", number=Inf, sort.by = "P") %>% rownames_to_column("Gene") # Result of DEG analysis 
+deg.mm <- topTable(fit2.mm, adjust="fdr", number=Inf, sort.by = "P") %>% rownames_to_column("Gene") # Result of DEG analysis 
 write.table(deg.mm, paste("../../suppl_tables/TableS4_DEG_", test, "_Stroma.tsv", sep=""), row.names = F, quote=F, sep = "\t")

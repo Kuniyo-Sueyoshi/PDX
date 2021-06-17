@@ -49,7 +49,7 @@ R>
 source("./tximport.R")
 ```
 
-### Tested environment 
+## Tested environment 
 ```sh
 salmon -v
 $ version : 0.8.1
