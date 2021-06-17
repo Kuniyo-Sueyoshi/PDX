@@ -35,7 +35,7 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base  
 other attached packages:  
  [1] BiocManager_1.30.16 edgeR_3.34.0        limma_3.48.0
- [4] cowplot_1.1.1       GSVA_1.40.1         RColorBrewer_1.1-2
+ [4] cowplot_1.1.1       GSVA_1.36.0         RColorBrewer_1.1-2
  [7] forcats_0.5.1       stringr_1.4.0       dplyr_1.0.6
 [10] purrr_0.3.4         readr_1.4.0         tidyr_1.1.3
 [13] tibble_3.1.2        ggplot2_3.3.4       tidyverse_1.3.1
