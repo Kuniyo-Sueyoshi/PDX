@@ -53,6 +53,7 @@ cd ./PDX/data/PDX
 sh unzip_rename.sh
 cd ./PDX/analysis/DEG
 ```
+*; then start R*
 ```R
 source("./DEG.r")
 ```
