@@ -1,8 +1,9 @@
 # Package requirement
-mypkgs <- c("tidyverse", "RColorBrewer", "cowplot")
+mypkgs <- c("tidyverse", "RColorBrewer", "cowplot", "ggrepel")
 invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
+    if(suppressWarnings(!do.call("require", list(x)))){
+        BiocManager::install(x)
+        do.call("require", list(x))
     }
 }))
 
@@ -79,12 +80,13 @@ g.pg <- ggplot(d, aes(x=Type, y=Tumor_prop, fill = Type)) +
 
 # TCGA
 tp.ab$Type <- factor(tp.ab$Type, levels = c("SARC", "BRCA", "GBM", "STAD", "COAD", "NSCLC", "KIRC", "PAAD"))
-ann_colors_sort <- unlist(
-    sapply(levels(tp.ab$Type), function(x){
+ann_colors_sort_ls <- sapply(levels(tp.ab$Type), function(x){
         loc <- grep(x, names(ann_colors))
         return(ann_colors[loc])
-    })
-)
+})
+ann_colors_sort <- unlist(ann_colors_sort_ls)
+names(ann_colors_sort) <- gsub("\\..*$", "", names(ann_colors_sort))
+
 g.ab <- ggplot(tp.ab, aes(x=Type, y = purity)) +
         geom_violin(aes(fill = Type), size=0.3, alpha = 0.3) + 
         #geom_dotplot(aes(color = Type), binaxis='y', stackdir='center', dotsize=.02, binwidth = 0.02, stackratio = 3)+#) + 
@@ -111,12 +113,7 @@ mytheme <- theme_classic() +
               axis.title=element_text(size=6),
               axis.text=element_text(size=6)) + 
         theme(legend.position = 'none') 
-ann_colors_sort <- unlist(
-    sapply(levels(tp.scat$Type), function(x){
-        loc <- grep(x, names(ann_colors))
-        return(ann_colors[loc])
-    })
-)
+
 g <- ggplot(tp.scat, aes(PDX, TCGA)) + 
     geom_smooth(method=lm, color = "grey", fill = "lightgrey") +
     geom_point(color = "black", size = 1.5) + 

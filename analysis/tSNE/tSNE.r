@@ -1,8 +1,9 @@
 # Package requirement
 mypkgs <- c("tidyverse", "RColorBrewer", "Rtsne", "cowplot","edgeR")
 invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
+    if(suppressWarnings(!do.call("require", list(x)))){
+        BiocManager::install(x)
+        do.call("require", list(x))
     }
 }))
 
@@ -33,9 +34,9 @@ theme_common <- theme_classic() +
 ### tSNE analysis of Cancer component 
 y.hg <- DGEList(d.hg)
 # Filtering low expressed genes
-y.hg0 <- calcNormFactors(y.hg0)
+y.hg <- calcNormFactors(y.hg)
 drop <- which(apply(cpm(y.hg), 1, max) < 1) # Genes with TMM-normalized CPM < 1
-y.hgl <- cpm(y.hg0[-drop, ], log = T) # log-CPM  value
+y.hgl <- cpm(y.hg[-drop, ], log = T) # log-CPM  value
 tsne <- Rtsne(t(as.matrix(y.hgl)), perplexity = 5) # tSNE execution
 res.tsne <- data.frame(tSNE_1 = tsne$Y[,1], tSNE_2 = tsne$Y[,2], Type = primary)
 g.sne.hg <- ggplot(res.tsne, aes(x=tSNE_1, y=tSNE_2, color = Type))+
@@ -47,9 +48,9 @@ g.sne.hg <- ggplot(res.tsne, aes(x=tSNE_1, y=tSNE_2, color = Type))+
 ### tSNE analysis of Stroma component 
 y.mm <- DGEList(d.mm)
 # Filtering low expressed genes
-y.mm0 <- calcNormFactors(y.mm)
-drop <- which(apply(cpm(y.mm0), 1, max) < 1) # Genes with TMM-normalized CPM < 1
-y.mml <- cpm(y.mm0[-drop, ], log = T) # log-CPM  value
+y.mm <- calcNormFactors(y.mm)
+drop <- which(apply(cpm(y.mm), 1, max) < 1) # Genes with TMM-normalized CPM < 1
+y.mml <- cpm(y.mm[-drop, ], log = T) # log-CPM  value
 tsne <- Rtsne(t(as.matrix(y.mml)), perplexity = 5) # tSNE execution
 res.tsne <- data.frame(tSNE_1 = tsne$Y[,1], tSNE_2 = tsne$Y[,2], Type = primary)
 g.sne.mm <- ggplot(res.tsne, aes(x=tSNE_1, y=tSNE_2, color = Type))+

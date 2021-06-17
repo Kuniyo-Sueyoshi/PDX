@@ -1,14 +1,19 @@
-#library(utils)
-#rforge <- "http://r-forge.r-project.org"
-#install.packages("estimate", repos=rforge, dependencies=TRUE)
-
-# Package requirement
-mypkgs <- c("tidyverse", "RColorBrewer", "estimate", "cowplot")
+# Packages
+mypkgs <- c("tidyverse", "RColorBrewer", "cowplot")
 invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
+    if(suppressWarnings(!do.call("require", list(x)))){
+        BiocManager::install(x)
+        do.call("require", list(x))
     }
 }))
+
+if(suppressWarnings(!require(estimate))){
+    #library(utils)
+    rforge <- "http://r-forge.r-project.org"
+    install.packages("estimate", repos=rforge, dependencies=TRUE)
+    require(estimate)
+}
+
 
 ### Pre-process of expresison data of Stromal component of PDXs 
 # homolog genes table 

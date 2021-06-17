@@ -1,23 +1,16 @@
-### Description
-The script to execute differential expression analysis of genes is located at this directory.
+# Validation of KIRC PDX transcriptome
 
-### Usage
+# Description
+The script to execute validation analyses is placed in this directory.  
+In the script, Original KIRC PDXs and External KIRC PDXs (EGAD00001004799) are to be integrated; then the results of (1) tSNE of cancer components, (2) Geneset analyses, (3) Differential exprssion analyses, and (4) Expression patterns of estimated paracrine effectors are to be compared with original results.
+
+
+# Usage
 ```R
 source("./Orignal_vs_External.r")
 ```
 
-### R-Package requirement
-```R
-R>
-mypkgs <- c("tidyverse", "edgeR", "RColorBrewer", "Rtsne", "GSVA", "cowplot", "ggsignif", "ggrepel")
-invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
-    }
-}))
-```
-
-### Reuqired files to run the script
+# Files required to run the script
 - Gene-level exprssion data in Count-estimate values of Original PDXs 
   - ../../data/PDX/Expression_matrix_CountEstimates_human.tsv
   - ../../data/PDX/Expression_matrix_CountEstimates_mouse.tsv
@@ -45,5 +38,22 @@ invisible(lapply(mypkgs, function(x){
 - Function to annotate and sort PDX samples
   - ../../data/PDX/fn_anno_sort.R
 
-### Outputs
+# Outputs
 - ./FigS3_Ori-Ex_PDX.jpg
+
+# R environment and packages
+> R version 4.1.0 (2021-05-18)  
+Platform: x86_64-apple-darwin17.0 (64-bit)  
+Running under: macOS Catalina 10.15.7  
+locale:  
+[1] ja_JP.UTF-8/ja_JP.UTF-8/ja_JP.UTF-8/C/ja_JP.UTF-8/ja_JP.UTF-8  
+attached base packages:  
+[1] stats     graphics  grDevices utils     datasets  methods   base  
+other attached packages:  
+ [1] BiocManager_1.30.16 statmod_1.4.36      ggrepel_0.9.1
+ [4] ggsignif_0.6.2      cowplot_1.1.1       GSVA_1.40.1
+ [7] Rtsne_0.15          RColorBrewer_1.1-2  edgeR_3.34.0
+[10] limma_3.48.0        forcats_0.5.1       stringr_1.4.0
+[13] dplyr_1.0.6         purrr_0.3.4         readr_1.4.0
+[16] tidyr_1.1.3         tibble_3.1.2        ggplot2_3.3.4
+[19] tidyverse_1.3.1

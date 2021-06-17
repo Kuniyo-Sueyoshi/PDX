@@ -1,8 +1,9 @@
 # Package requirement
 mypkgs <- c("tidyverse", "edgeR", "RColorBrewer", "Rtsne", "GSVA", "cowplot", "ggsignif", "ggrepel")
 invisible(lapply(mypkgs, function(x){
-    if(!do.call("require", list(x))){
-        install.packages(x)
+    if(suppressWarnings(!do.call("require", list(x)))){
+        BiocManager::install(x)
+        do.call("require", list(x))
     }
 }))
 
