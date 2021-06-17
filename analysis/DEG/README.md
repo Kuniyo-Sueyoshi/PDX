@@ -18,10 +18,10 @@ source("./DEG.r")
 - ../../suppl_tables/TableS4_DEG_KIRCvsOthers_Stroma.tsv
 
 # R environment and packages
-> R version 4.1.0 (2021-05-18)
-> Platform: x86_64-apple-darwin17.0 (64-bit)
+> R version 4.1.0 (2021-05-18)  
+> Platform: x86_64-apple-darwin17.0 (64-bit)  
 > Running under: macOS Catalina 10.15.7
-locale:
+locale:  
 [1] ja_JP.UTF-8/ja_JP.UTF-8/ja_JP.UTF-8/C/ja_JP.UTF-8/ja_JP.UTF-8
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base
