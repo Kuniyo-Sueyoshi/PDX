@@ -48,6 +48,9 @@ Running under: CentOS Linux 7 (Core)
 # Usage example
 ```sh
 git clone https://github.com/Kuniyo-Sueyoshi/PDX.git
+cd ./PDX/data/PDX
+# Download Expression data from GEO according to the instruction
+sh unzip_rename.sh
 cd ./PDX/analysis/DEG
 ```
 ```R
