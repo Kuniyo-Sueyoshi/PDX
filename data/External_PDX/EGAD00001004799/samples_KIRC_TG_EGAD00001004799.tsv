@@ -1,0 +1,15 @@
+reference	EGAD	EGAF	fastq	sampleID	exision_site	passage
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399466	1620R-17-01_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc7a	a	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399467	1620R-17-01_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc7a	a	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399468	1620R-17-02_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc4a	a	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399469	1620R-17-02_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc4a	a	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399470	1620R-17-03_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc4b	b	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399471	1620R-17-03_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc4b	b	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399472	1620R-17-04_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc4c	c	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399473	1620R-17-04_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc4c	c	c4
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399474	1620R-17-05_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc7b	b	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399475	1620R-17-05_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc7b	b	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399476	1620R-17-07_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc8a	a	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399477	1620R-17-07_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc8a	a	c7
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399478	1620R-17-08_S1_L006_R1_001.fastq.gz	RNA_XP165M_TGc8b	b	c8
+https://clincancerres.aacrjournals.org/content/26/4/793	EGAD00001004799	EGAF00002399479	1620R-17-08_S1_L006_R2_001.fastq.gz	RNA_XP165M_TGc8b	b	c8
