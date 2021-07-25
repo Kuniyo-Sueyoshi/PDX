@@ -1,0 +1,1 @@
+This is a directory to contain bam files EGAF... listed in ../README.md

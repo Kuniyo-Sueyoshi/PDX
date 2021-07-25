@@ -1,0 +1,1 @@
+This is a directory to keep fastq files that are available by executing ../bam2fastq.pl

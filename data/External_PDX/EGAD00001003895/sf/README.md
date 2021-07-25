@@ -1,0 +1,1 @@
+This is a directory to keep transcript-level count estimates and abundance data that are obtained by executing ../samlon_quant.sh
