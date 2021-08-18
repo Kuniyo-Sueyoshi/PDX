@@ -80,12 +80,6 @@ g.pg <- ggplot(d, aes(x=Type, y=Tumor_prop, fill = Type)) +
 
 # TCGA
 tp.ab$Type <- factor(tp.ab$Type, levels = c("SARC", "BRCA", "GBM", "STAD", "COAD", "NSCLC", "KIRC", "PAAD"))
-ann_colors_sort_ls <- sapply(levels(tp.ab$Type), function(x){
-        loc <- grep(x, names(ann_colors))
-        return(ann_colors[loc])
-})
-ann_colors_sort <- unlist(ann_colors_sort_ls)
-names(ann_colors_sort) <- gsub("\\..*$", "", names(ann_colors_sort))
 
 g.ab <- ggplot(tp.ab, aes(x=Type, y = purity)) +
         geom_violin(aes(fill = Type), size=0.3, alpha = 0.3) + 
@@ -114,13 +108,16 @@ mytheme <- theme_classic() +
               axis.text=element_text(size=6)) + 
         theme(legend.position = 'none') 
 
+ann_colors.tmp <- c(ann_colors, SARC = "white")
+ann_colors_sort <- ann_colors.tmp[match(levels(tp.scat$Type), names(ann_colors.tmp))]
+
 g <- ggplot(tp.scat, aes(PDX, TCGA)) + 
     geom_smooth(method=lm, color = "grey", fill = "lightgrey") +
     geom_point(color = "black", size = 1.5) + 
     geom_point(aes(color = Type), size = 1.2) + 
-    scale_color_manual(name = "Type", values = c("white", ann_colors_sort)) +
+    scale_color_manual(values = ann_colors_sort) +
     ggrepel::geom_text_repel(aes(label = Type), size = 2, box.padding = 0.3, min.segment.length = 1) +  
-    xlab("Mean tumor purity of TCGA") + ylab("Mean tumor purity of PDX") +
+    xlab("Mean tumor purity of PDX") + ylab("Mean tumor purity of TCGA") +
     mytheme + 
     #scale_x_continuous(limits = c(0.7,1), breaks = c(0.7,0.8,0.9,1.0)) + 
     theme(plot.margin=margin(b=4, t=4, r=1.5,l=1.5,unit="mm"))

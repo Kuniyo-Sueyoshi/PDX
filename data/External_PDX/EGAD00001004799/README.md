@@ -33,7 +33,7 @@ This is a directory to keep and process the external data (EGAD00001004799) of K
   - EGAF00002399478
   - EGAF00002399479
 
-2. Make reference Salmon-index of allo-species
+2. Make reference Salmon-index of xeno-species
 ```sh
 sh ./salmon_idx.sh
 ```

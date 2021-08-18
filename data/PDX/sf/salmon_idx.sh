@@ -8,6 +8,6 @@
 ### ref-index
 zcat ../../ref/gencode.v27.transcripts.fa.gz\
      ../../ref/gencode.vM15.transcripts.fa.gz >\
-     allo.fa
-salmon index -t allo.fa -i idx.allo.salmon --type quasi -k 31
+     xeno.fa
+salmon index -t xeno.fa -i idx.xeno.salmon --type quasi -k 31
 

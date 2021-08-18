@@ -36,13 +36,13 @@ This is a directory to keep and process the external data (EGAD00001003895) of K
 ```sh
 # Example
 perl bam2fastq.pl ./bam/EGAF00001808513/SAM19944478_36813.filtered.bam ./fastq/EGAF00001808513 20
+# Dr. Tao Wang kindly offered to share the script "bam2fastq.pl" with us.
 ```
-Dr. Tao Wang kindly offered to share the script "bam2fastq.pl" with us.
 
 3. Quantify counts by salmon
 ```sh
 sh ./salmon_quant.sh
-# Internally import allo-species index ../../PDX/sf/idx.allo.salmon
+# Internally import xeno-species index ../../PDX/sf/idx.xeno.salmon
 ```
 
 4. Transcript-level to Gene-level

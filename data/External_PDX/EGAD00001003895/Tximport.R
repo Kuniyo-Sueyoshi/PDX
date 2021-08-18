@@ -18,7 +18,7 @@ names(files) <- sm
 # read files
 tx.exp <- tximport(files, type = "salmon", txOut = TRUE)
 
-# Sprit allo-species data into tumor (hg) and stroma (mm) data 
+# Sprit xeno-species data into tumor (hg) and stroma (mm) data 
 # tx.exp[1]; abundance, tx.exp[2]; counts, tx.exp[3]; length
 tx.exp.hg <- tx.exp
 tx.exp.hg[1:3] <- lapply(tx.exp.hg[1:3], function(x){return(x[grepl("ENST", rownames(x)), ])})
