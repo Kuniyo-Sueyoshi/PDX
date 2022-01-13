@@ -65,4 +65,4 @@ Please see sub-repository/README.md for the details.
 * 103011ms@gmail.com
 
 # License
-Please site the artile; (Hopefully coming soon...).
+Please site the artile; https://doi.org/10.1016/j.isci.2021.103322
